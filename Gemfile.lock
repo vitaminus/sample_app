@@ -29,6 +29,8 @@ GEM
     activesupport (3.2.9)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -133,17 +135,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   autotest
   autotest-fsevent
   autotest-growl
   autotest-rails-pure
-  coffee-rails (~> 3.2.1)
+  coffee-rails
   jquery-rails
   rails (= 3.2.9)
   rb-readline
   rspec-rails
-  sass-rails (~> 3.2.3)
+  sass-rails
   spork
   sqlite3
-  uglifier (>= 1.0.3)
+  uglifier
   webrat
