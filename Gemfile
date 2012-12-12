@@ -7,6 +7,7 @@ gem 'rails', '3.2.9'
 
 gem 'sqlite3', :group => :development
 gem 'rb-readline'
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,6 +36,7 @@ group :test do
   	gem 'autotest-fsevent'
  	gem 'autotest-growl'
 	gem 'spork'
+  gem 'factory_girl_rails'
 end
 
 # To use ActiveModel has_secure_password
